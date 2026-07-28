@@ -1,0 +1,228 @@
+[
+  {
+    "id": "rp-001",
+    "slug": "moletom-oversized-drip",
+    "name": "Moletom Oversized Drip",
+    "category": "roupas",
+    "price": 18990,
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "images": [
+      "/img/products/rp-001.jpg"
+    ],
+    "description": "Moletom oversized em algodão pesado, capuz duplo e acabamento reforçado. Corte streetwear, caimento solto.",
+    "stock": 25,
+    "featured": true
+  },
+  {
+    "id": "rp-002",
+    "slug": "jaqueta-corta-vento-street",
+    "name": "Jaqueta Corta-Vento Street",
+    "category": "roupas",
+    "price": 24990,
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "images": [
+      "/img/products/rp-002.jpg"
+    ],
+    "description": "Jaqueta corta-vento impermeável, forro leve, ideal para looks urbanos em qualquer estação.",
+    "stock": 18,
+    "featured": false
+  },
+  {
+    "id": "rp-003",
+    "slug": "camiseta-basic-premium",
+    "name": "Camiseta Basic Premium",
+    "category": "roupas",
+    "price": 8990,
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XG"
+    ],
+    "images": [
+      "/img/products/rp-003.jpg"
+    ],
+    "description": "Camiseta 100% algodão penteado, gramatura extra, corte reto.",
+    "stock": 40,
+    "featured": true
+  },
+  {
+    "id": "rp-004",
+    "slug": "calca-cargo-jogger",
+    "name": "Calça Cargo Jogger",
+    "category": "roupas",
+    "price": 19990,
+    "sizes": [
+      "38",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "images": [
+      "/img/products/rp-004.jpg"
+    ],
+    "description": "Calça cargo com bolsos laterais e punho jogger, tecido resistente e confortável.",
+    "stock": 22,
+    "featured": false
+  },
+  {
+    "id": "tn-001",
+    "slug": "sneaker-runner-street",
+    "name": "Sneaker Runner Street",
+    "category": "tenis",
+    "price": 34990,
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "images": [
+      "/img/products/tn-001.jpg"
+    ],
+    "description": "Sneaker leve com entressola em EVA e cabedal respirável, ideal para o dia a dia.",
+    "stock": 15,
+    "featured": true
+  },
+  {
+    "id": "tn-002",
+    "slug": "tenis-chunky-urban",
+    "name": "Tênis Chunky Urban",
+    "category": "tenis",
+    "price": 39990,
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "images": [
+      "/img/products/tn-002.jpg"
+    ],
+    "description": "Tênis chunky com solado tripla densidade, visual robusto e amortecimento extra.",
+    "stock": 12,
+    "featured": true
+  },
+  {
+    "id": "tn-003",
+    "slug": "tenis-casual-low",
+    "name": "Tênis Casual Low",
+    "category": "tenis",
+    "price": 27990,
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "images": [
+      "/img/products/tn-003.jpg"
+    ],
+    "description": "Tênis casual de skate, base baixa, ótimo para uso diário.",
+    "stock": 20,
+    "featured": false
+  },
+  {
+    "id": "tn-004",
+    "slug": "bota-combat-street",
+    "name": "Bota Combat Street",
+    "category": "tenis",
+    "price": 42990,
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "images": [
+      "/img/products/tn-004.jpg"
+    ],
+    "description": "Bota cano curto em material sintético resistente, sola tratorada.",
+    "stock": 10,
+    "featured": false
+  },
+  {
+    "id": "ac-001",
+    "slug": "bone-aba-reta-drip",
+    "name": "Boné Aba Reta Drip",
+    "category": "acessorios",
+    "price": 8990,
+    "sizes": [
+      "Único"
+    ],
+    "images": [
+      "/img/products/ac-001.jpg"
+    ],
+    "description": "Boné aba reta bordado, ajuste em snapback, aba plana.",
+    "stock": 30,
+    "featured": true
+  },
+  {
+    "id": "ac-002",
+    "slug": "mochila-street-pack",
+    "name": "Mochila Street Pack",
+    "category": "acessorios",
+    "price": 15990,
+    "sizes": [
+      "Único"
+    ],
+    "images": [
+      "/img/products/ac-002.jpg"
+    ],
+    "description": "Mochila impermeável com compartimento para notebook e bolso frontal utilitário.",
+    "stock": 16,
+    "featured": false
+  },
+  {
+    "id": "ac-003",
+    "slug": "oculos-de-sol-retro",
+    "name": "Óculos de Sol Retro",
+    "category": "acessorios",
+    "price": 6990,
+    "sizes": [
+      "Único"
+    ],
+    "images": [
+      "/img/products/ac-003.jpg"
+    ],
+    "description": "Óculos de sol com armação retrô e proteção UV400.",
+    "stock": 24,
+    "featured": false
+  },
+  {
+    "id": "ac-004",
+    "slug": "corrente-prata-street",
+    "name": "Corrente Prata Street",
+    "category": "acessorios",
+    "price": 12990,
+    "sizes": [
+      "Único"
+    ],
+    "images": [
+      "/img/products/ac-004.jpg"
+    ],
+    "description": "Corrente banhada, elo cubano, fecho reforçado.",
+    "stock": 14,
+    "featured": true
+  }
+]
