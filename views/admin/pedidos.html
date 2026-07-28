@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedidos - Admin Drip Imports</title>
+  <link rel="icon" href="/img/logo.png" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="brand"><img src="/img/logo.png" alt="Drip Imports" /></a>
+      <div class="header-actions">
+        <span style="color:var(--muted); font-size:0.85rem;">Painel administrativo</span>
+        <button class="btn btn-outline btn-sm" id="admin-logout-btn">Sair</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="admin-shell">
+    <aside class="admin-sidebar">
+      <a href="/admin/dashboard">Produtos</a>
+      <a href="/admin/pedidos" class="active">Pedidos</a>
+      <a href="/catalogo">Ver loja</a>
+    </aside>
+    <main class="admin-main">
+      <div class="admin-header">
+        <h2 style="margin:0;">Pedidos</h2>
+      </div>
+      <div id="admin-orders-mount"><div class="spinner"></div></div>
+    </main>
+  </div>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/admin.js"></script>
+</body>
+</html>
