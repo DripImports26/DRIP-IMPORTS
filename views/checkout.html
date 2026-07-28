@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finalizar compra - Drip Imports</title>
+  <link rel="icon" href="/img/logo.png" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div id="app-header"></div>
+
+  <div class="container">
+    <div class="section-title" style="margin-top:30px;">
+      <h2>Finalizar compra</h2>
+    </div>
+
+    <div class="cart-layout">
+      <div>
+        <div id="checkout-alert" class="alert alert-error"></div>
+        <form id="checkout-form">
+          <h3>Seus dados</h3>
+          <div class="grid-2">
+            <div class="form-group">
+              <label>Nome completo</label>
+              <input name="name" required />
+            </div>
+            <div class="form-group">
+              <label>E-mail</label>
+              <input type="email" name="email" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Telefone / WhatsApp</label>
+            <input name="phone" required placeholder="(11) 91234-5678" />
+          </div>
+
+          <h3 style="margin-top:26px;">Endereço de entrega</h3>
+          <div class="grid-2">
+            <div class="form-group">
+              <label>CEP</label>
+              <input name="cep" required />
+            </div>
+            <div class="form-group">
+              <label>Cidade</label>
+              <input name="city" required />
+            </div>
+          </div>
+          <div class="grid-2">
+            <div class="form-group">
+              <label>Rua</label>
+              <input name="street" required />
+            </div>
+            <div class="form-group">
+              <label>Número</label>
+              <input name="number" required />
+            </div>
+          </div>
+          <div class="grid-2">
+            <div class="form-group">
+              <label>Complemento</label>
+              <input name="complement" />
+            </div>
+            <div class="form-group">
+              <label>Estado (UF)</label>
+              <input name="state" maxlength="2" required />
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-block" id="checkout-submit" type="submit">Ir para pagamento</button>
+          <p style="text-align:center; color:var(--muted); font-size:0.85rem; margin-top:14px;">
+            Você será redirecionado para a página segura de pagamento da InfinitePay (Pix ou cartão de crédito).
+          </p>
+        </form>
+      </div>
+
+      <div class="summary-card">
+        <h3 style="margin-top:0;">Resumo do pedido</h3>
+        <div id="checkout-summary"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="app-footer"></div>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/checkout.js"></script>
+  <script>mountLayout("");</script>
+</body>
+</html>

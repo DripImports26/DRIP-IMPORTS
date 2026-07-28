@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrar ou criar conta - Drip Imports</title>
+  <link rel="icon" href="/img/logo.png" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div id="app-header"></div>
+
+  <div class="container">
+    <div class="form-card" id="login-panel">
+      <img src="/img/logo.png" alt="Drip Imports" style="height:60px; margin:0 auto 20px; display:block;" />
+      <h2>Entrar</h2>
+      <p class="subtitle">Acesse sua conta Drip Imports</p>
+      <div id="login-alert" class="alert alert-error"></div>
+      <form id="login-form">
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label>Senha</label>
+          <input type="password" name="password" required />
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">Entrar</button>
+      </form>
+      <p class="form-switch">Ainda não tem conta? <a href="#" id="show-register">Cadastre-se</a></p>
+    </div>
+
+    <div class="form-card" id="register-panel" style="display:none;">
+      <img src="/img/logo.png" alt="Drip Imports" style="height:60px; margin:0 auto 20px; display:block;" />
+      <h2>Criar conta</h2>
+      <p class="subtitle">Leva menos de um minuto</p>
+      <div id="register-alert" class="alert alert-error"></div>
+      <form id="register-form">
+        <div class="form-group">
+          <label>Nome completo</label>
+          <input name="name" required />
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label>Telefone / WhatsApp</label>
+          <input name="phone" required />
+        </div>
+        <div class="form-group">
+          <label>Senha</label>
+          <input type="password" name="password" required minlength="6" />
+        </div>
+        <div class="form-group">
+          <label>Confirmar senha</label>
+          <input type="password" name="password2" required minlength="6" />
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">Criar conta</button>
+      </form>
+      <p class="form-switch">Já tem conta? <a href="#" id="show-login">Entrar</a></p>
+    </div>
+  </div>
+
+  <div id="app-footer"></div>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/auth.js"></script>
+  <script>mountLayout("");</script>
+</body>
+</html>

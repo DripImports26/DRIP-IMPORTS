@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drip Imports - Roupas, Tênis e Acessórios</title>
+  <meta name="description" content="Drip Imports - roupas, tênis e acessórios com cadastro, carrinho e pagamento via Pix e cartão." />
+  <link rel="icon" href="/img/logo.png" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div id="app-header"></div>
+
+  <section class="hero">
+    <img src="/img/logo.png" alt="Drip Imports" class="hero-logo" />
+    <h1>DRIP IMPORTS</h1>
+    <p>Roupas, tênis e acessórios direto no seu carrinho. Pagamento rápido e seguro via Pix ou cartão.</p>
+    <div class="hero-actions">
+      <a href="/catalogo" class="btn btn-primary">Ver catálogo</a>
+      <a href="/cadastro" class="btn btn-outline">Criar minha conta</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="categories">
+      <a class="category-card" href="/catalogo?categoria=roupas">
+        <div class="emoji">👕</div>
+        <h3>Roupas</h3>
+        <p>Moletons, jaquetas, camisetas e mais</p>
+      </a>
+      <a class="category-card" href="/catalogo?categoria=tenis">
+        <div class="emoji">👟</div>
+        <h3>Tênis</h3>
+        <p>Sneakers e botas para todo estilo</p>
+      </a>
+      <a class="category-card" href="/catalogo?categoria=acessorios">
+        <div class="emoji">🕶️</div>
+        <h3>Acessórios</h3>
+        <p>Bonés, mochilas, óculos e correntes</p>
+      </a>
+    </div>
+
+    <div class="section-title">
+      <h2>Destaques</h2>
+      <a href="/catalogo">Ver tudo →</a>
+    </div>
+    <div class="product-grid" id="featured-grid">
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <div id="app-footer"></div>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/catalog.js"></script>
+  <script>mountLayout("inicio");</script>
+</body>
+</html>
