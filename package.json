@@ -1,0 +1,16 @@
+{
+  "name": "drip-imports",
+  "version": "1.0.0",
+  "description": "Site oficial da Drip Imports - loja de roupas, tênis e acessórios com cadastro, carrinho e pagamento via InfinitePay (Pix e cartão).",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
